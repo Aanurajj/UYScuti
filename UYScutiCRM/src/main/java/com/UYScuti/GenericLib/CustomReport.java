@@ -8,9 +8,13 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class CustomReport {
 
+	
+	//will this display
+
+	
 	public static void main (String[] args)
 	{
-	
+		
 	ExtentSparkReporter spark= new ExtentSparkReporter("./customReports/myreport.html");
 	ExtentReports extent=new ExtentReports();
 	extent.attachReporter(spark);
